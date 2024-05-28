@@ -1,0 +1,52 @@
+/*==============================================
+   Login    
+    =============================================*/
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #3a51ab;
+}
+
+.login {
+    height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+    .login {
+        height: 100%;
+    }
+}
+
+/*===============================================
+    Home
+=================================================*/
+.logo_brand{
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+.logo_brand_img{
+    max-width: 100%;
+    max-height: 8.5rem;
+}
+.main_content{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.fuddin .andon{
+    padding-top: 100px;
+}
+.sosmedpembuat{
+    margin-left: 380px;
+    margin-right: 380px;
+}
+.fuddin{
+    margin-bottom: 50px;
+}
+.andon{
+    margin-bottom: 50px;
+}
+
+
+
